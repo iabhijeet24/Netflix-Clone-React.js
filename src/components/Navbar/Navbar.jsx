@@ -15,25 +15,32 @@ const Navbar = () => {
     <div className='Navbar'>
       <div className="navbar-left">
         <img src={logo} alt="logoImage" className='logoImage'/>
+      </div>
 
-        <ul>
+      <div className="navbar-links">
+          <ul>
           <li>Home</li>
           <li>TV Shows</li>
           <li>Movies</li>
           <li>New & Popular</li>
           <li>My List</li>
-        </ul>      
+        </ul> 
       </div>
+     
+      
 
       <div className="navbar-right">
         <img src={searchIcon} alt="searchIcon"  className='icons'/>
         <img src={bellIcon} alt="bellIcon" className='icons'/>
-      </div>
 
+        
       <div className="navbar-profile">
         <img src={profileImage} className='profile-image' />
         <img src={caretIcon} className='caret-icon'/>
       </div>
+      
+      </div>
+
     </div>
   )
 }
