@@ -31,12 +31,20 @@ const Navbar = () => {
 
       <div className="navbar-right">
         <img src={searchIcon} alt="searchIcon"  className='icons'/>
+        <p>Children</p>
         <img src={bellIcon} alt="bellIcon" className='icons'/>
 
         
       <div className="navbar-profile">
         <img src={profileImage} className='profile-image' />
         <img src={caretIcon} className='caret-icon'/>
+
+        <div className="dropdown">
+          <p>Accounts</p>
+          <p>Settings</p>
+          <p>sign out of Netflix</p>
+
+        </div>
       </div>
       
       </div>
