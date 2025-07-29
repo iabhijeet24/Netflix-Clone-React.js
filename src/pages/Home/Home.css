@@ -27,4 +27,34 @@
     max-width: 700px;
     font-size: 1.1rem;
     margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.hero-button{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.btn1 , .btn2 img{
+    width: 25px;
+}
+.btn1{
+    border: none;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn2{
+    color: white;
+    background: #6d6d6eb3;
 }
