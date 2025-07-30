@@ -37,7 +37,11 @@
     margin-bottom: 50px;
 }
 
-.btn1 , .btn2 img{
+.btn1 img{
+    width: 25px;
+} 
+
+.btn2 img{
     width: 25px;
 }
 .btn1{
@@ -55,6 +59,27 @@
 }
 
 .btn2{
+        border: none;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
     color: white;
     background: #6d6d6eb3;
 }
+
+.btn1 :hover{
+    background: #ffffffbf;
+
+}
+
+.btn2 :hover{
+    background: #6d6d6e66;
+
+}
+
