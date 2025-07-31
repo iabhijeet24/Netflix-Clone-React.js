@@ -24,7 +24,7 @@ const cards_data = [
     },
     {
         image:card_img3,
-        name:"Squid Challange"
+        name:"Squid Challenge"
     },
     {
         image:card_img4,
@@ -60,7 +60,7 @@ const cards_data = [
     },
     {
         image:card_img12,
-        name:"Mission Ganj"
+        name:"Mission Raniganj"
     },
     {
         image:card_img13,
